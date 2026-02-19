@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <defs>
+    <linearGradient id="star-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FBBF24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F59E0B;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 循环外圈 -->
+  <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12" opacity="0.8"/>
+  <path d="M22 12L18 12" opacity="0.4"/>
+  
+  <!-- 拆分式字母 A -->
+  <!-- 倒置 V -->
+  <path d="M7 17L12 5L17 17" />
+  <!-- 悬浮短横岗 -->
+  <path d="M9.5 13H14.5" />
+
+  <!-- AI 闪光 (黄橙色渐变) -->
+  <path d="M19 2L20 5L23 6L20 7L19 10L18 7L15 6L18 5L19 2Z" fill="url(#star-gradient)" stroke="none"/>
+  <path d="M5 18L5.5 19.5L7 20L5.5 20.5L5 22L4.5 20.5L3 20L4.5 19.5L5 18Z" fill="url(#star-gradient)" stroke="none" opacity="0.7"/>
+</svg>
